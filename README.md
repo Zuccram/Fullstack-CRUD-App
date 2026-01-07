@@ -7,10 +7,16 @@ I enjoy building and solving features from scratch, understanding how things wor
 
 ---
 
-### 🚀 Projects Overview
+### 🚀 Project Overview
 
-**Multiple projects** I have build using **React and Javascript**, using **Node.js and Express** to achieve a good beginning to something better.  
+I have build using **React and Javascript**, using **Node.js and Express** to achieve a good beginning to something better.  
 This project was created primarily for **learning and experimentation**, with a strong focus on functionality rather than responsiveness.
+
+---
+
+<img width="1768" height="645" alt="Screenshot 2026-01-07 162213" src="https://github.com/user-attachments/assets/cfa46ca2-73b1-4198-b9ad-b0cec2b7bfbe" />
+<img width="1815" height="1208" alt="Screenshot 2026-01-07 162232" src="https://github.com/user-attachments/assets/9afc746a-62a0-40bf-ba0d-13c40f5634ff" />
+<img width="1734" height="626" alt="Screenshot 2026-01-07 162221" src="https://github.com/user-attachments/assets/79ae4d37-682b-4fe8-9eb5-5f90af2413d9" />
 
 ---
 
@@ -28,25 +34,17 @@ This project was created primarily for **learning and experimentation**, with a 
 
 ## ✨ Features
 
-- **Drawing Tools**: Pencil, line, rectangle, and text tools  
-- **Element Manipulation**: Move and resize shapes directly on the canvas  
-- **Text Editing**: Add and edit text inline  
-- **Zoom & Pan**:
-  - Zoom with `Ctrl + Scroll` or buttons
-  - Pan using `Space + Drag` or middle mouse button  
-- **Undo / Redo** with full action history
-
+- **Using React**: To create input fields, adding/viewing countrys and Delete/Edit buttons   
+- **Express**: API Endpoints to create, read, update & delete = CRUD  
+- **Prisma**: Prisma for database and server management
+  
 ---
 
 ## 🧩 Development Process
 
-1. Rendered a canvas using **Rough.js** as the drawing base  
-2. Implemented drawing logic for shapes and freehand paths  
-3. Added element selection, movement, and resizing  
-4. Built a custom **undo/redo history system**  
-5. Implemented zooming and panning using wheel and mouse events  
-6. Designed a clean, user-friendly UI  
-7. Added **end-to-end and unit tests** using Cypress and Testing Library  
+1. Designed a clean, user-friendly UI 
+2. Frontend and backend communicate properly 
+3. Added buttons so the user can create, delete or update.  
 
 Throughout the project, I documented every feature to reinforce understanding and improve long-term learning.
 
@@ -55,36 +53,30 @@ Throughout the project, I documented every feature to reinforce understanding an
 ## 📚 What I Learned
 
 ### 🧠 State & Logic
-- Built a custom `useHistory` hook to manage undo/redo behavior
-- Learned how to track and replay user actions effectively
+- To create good and clean API that handles various tasks
+- Knows to find Unique/Many countries
+- Adding to the list of new countries
+- Understanding the fundementals of using React with Express to create a friendly and easy UI.
+- To create good and clean API that handles various tasks.
 
-### 📐 Geometry & Math
-- Improved accuracy when working with coordinates and shapes
-- Calculated distances, hit detection, and shape boundaries
-
-### 🎨 Canvas & Drawing
-- Converted freehand strokes into smooth SVG paths
-- Managed point collections efficiently for rendering
-
-### ⚛️ React Internals
-- Used `useLayoutEffect` for precise rendering control
-- Optimized re-renders for better performance
+### ⚛️ React
+- Using "useState" and "useEffect" to handle depending whats happening to the site
+- Fetching and getting responses from the API
+- Adding links to go on that specific country 
 
 ### 🖱️ Advanced Event Handling
-- Implemented wheel, mouse, and keyboard listeners
-- Built intuitive zooming and panning interactions
+- Using "Navigate hook" to take the user back depending if you press to home or other component
+- Used "Try & Catch" block to handle errors if the occur. Users get a response depending if it was successfull or not
 
 ---
 
 ## 🔮 Possible Improvements
 
-- More drawing tools (circle, eraser, arrows)
-- Additional shapes (triangles, stars, etc.)
-- Expanded color picker
-- More keyboard shortcuts
+- Create a more good looking and friendlier UI
+- Use different colors when you hover over the delete/edit buttons 
 - Theme support (dark / light)
 - Advanced text styling
-- Stronger TypeScript typing for Rough.js elements
+- Stronger JavaScript typings for cleaner elements
 
 ---
 
@@ -92,7 +84,7 @@ Throughout the project, I documented every feature to reinforce understanding an
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone <http://localhost:5173/>
 
 # Install dependencies
 npm install
@@ -100,6 +92,4 @@ npm install
 yarn
 
 # Start the app
-npm run start
-# or
-yarn start
+npm run dev
