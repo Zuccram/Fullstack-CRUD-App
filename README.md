@@ -80,16 +80,8 @@ Throughout the project, I documented every feature to reinforce understanding an
 
 ---
 
-## ▶️ Running the Project Locally
+## ▶️ Demo
 
-```bash
-# Clone the repository
-git clone <http://localhost:5173/>
+Managing Country Data in My Full Stack App 🌍 - Watch Video
 
-# Install dependencies
-npm install
-# or
-yarn
-
-# Start the app
-npm run dev
+"https://www.loom.com/embed/2bf503ae79c0457a8b71b001879dab87"
