@@ -82,6 +82,4 @@ Throughout the project, I documented every feature to reinforce understanding an
 
 ## ▶️ Demo
 
-Managing Country Data in My Full Stack App 🌍 - Watch Video (Only 720p)
-
-"https://www.loom.com/embed/2bf503ae79c0457a8b71b001879dab87"
+Demo coming soon !
