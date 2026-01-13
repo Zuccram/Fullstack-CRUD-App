@@ -82,4 +82,4 @@ Throughout the project, I documented every feature to reinforce understanding an
 
 ## ▶️ Demo
 
-Demo coming soon !
+https://youtu.be/0p8R3yPn_k8
